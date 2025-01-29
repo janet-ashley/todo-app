@@ -26,12 +26,12 @@ Une application de gestion de tâches (To-Do List) développée avec **React** e
 
 ### Prérequis
 
-- **Node.js** installé sur votre machine.
-- **npm** ou **yarn** pour gérer les dépendances.
-
+- **Node.js** installé sur votre machine.  
+- **npm** ou **yarn** pour gérer les dépendances.  
 
 ## Structure de l'APP
 
+```
 /public
   ├── vite.svg                    # Logo Vite
   ├── index.html                   # Fichier HTML principal
@@ -46,7 +46,7 @@ Une application de gestion de tâches (To-Do List) développée avec **React** e
 
   ├── components/                  # Composants réutilisables
   │    ├── AddTask.jsx              # Formulaire pour ajouter une tâche
-  │    ├── Count.jsx                # Compteur des tâches 
+  │    ├── Count.jsx                # Compteur des tâches
   │    ├── Task.jsx                 # Affichage d'une tâche individuelle
   │    ├── TaskList.jsx             # Affichage de la liste des tâches
   │    ├── tasksPage.jsx            # Page contenant la liste des tâches et les actions associées
@@ -79,13 +79,10 @@ Une application de gestion de tâches (To-Do List) développée avec **React** e
 
 /package.json                         # Dépendances et scripts du projet
 /package-lock.json                    # Fichier de verrouillage des dépendances
+```
 
+## Lien du dépôt GitHub
+[https://github.com/janet-ashley/todo-app](https://github.com/janet-ashley/todo-app)
 
-
-
-
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Auteur
+**TIADAM TCHINDA Janet Ashley**
